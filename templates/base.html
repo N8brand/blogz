@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Build A Blog</title>
+        <style>
+            .error {
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+                <!-- Direct 'Home' link to root path -->
+                <a href="/">Home</a>
+                <!-- Direct 'New Post' link to root path -->
+                <a href="/newpost">New Post</a>
+    {% block content %}
+    {% endblock %}
+    </body>
+</html>
